@@ -1,0 +1,216 @@
+body {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.body-bg {
+    background-image: url('../images/annie-spratt-kG-ZwDuQ8ME-unsplash.jpg');
+    background-size: cover;
+}
+
+.color-grey {
+    color: #4b4b4b;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+.cv-header, .profile, .experience, .company-name {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cv-header {
+    text-transform: uppercase;
+}
+
+
+.cv {
+    margin-top: 50px;
+    border: 1px solid #4b4b4b;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.cv-left {
+    background: #4b4b4b;
+    min-height: 30vh;
+    color: #fff;
+}
+
+.cv-right {
+    background: #fff;
+    min-height: 30vh;
+    color: #131313;
+    font-size: 18px;
+}
+
+.svg-img {
+    margin-top: 20px;
+}
+
+.cv-left a {
+    color: #fff;
+}
+
+.cv-left a:hover {
+    text-decoration: none;
+}
+
+.cv-left ul {
+    line-height: 180%;
+    padding-left: 30px;
+}
+
+.cv-left ul.contacts-block {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.cv-left .address {
+    font-style: italic;
+    text-align: center;
+}
+
+.svg-img {
+    margin-top: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.svg-img:hover {
+    color: darkgrey;
+}
+
+article {
+    padding: 20px;
+}
+
+.company-name {
+   font-size: 1.1rem;
+   text-transform: uppercase;
+}
+
+.company-name i{
+   font-size: .8rem;
+   font-family: 'Nunito Sans', sans-serif;
+   text-transform: none;
+}
+
+.job-title {
+   font-size: 1.4rem;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+.lines {
+   overflow: hidden;
+}
+
+.lines::before, .lines::after {
+   content: "";
+   display: inline-block;
+   box-sizing: border-box;
+   width: 100%;
+   height: 3px;
+   background: #4b4b4b;
+   border: 1px solid #fff;
+   vertical-align: middle;
+}
+
+.lines::before {
+   margin-left: -100%;
+   margin-right: 30px;
+}
+
+.lines::after {
+   margin-right: -100%;
+   margin-left: 30px;
+}
+
+.address {
+    margin-top: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .cv-left h1, .cv-left h2, .cv-left h3, .cv-left h4 {
+        font-size: 1.3rem;
+    }
+    .cv-left ul {
+        margin: auto;
+        line-height: 240%;
+        padding-left: 30px;
+    }
+
+    .lines::before {
+        margin-left: -110%;
+        margin-right: 10px;
+    }
+
+    .lines::after {
+        margin-right: -110%;
+        margin-left: 10px;
+    }
+
+    .svg-img {
+        margin-top: 10px;
+       
+    }
+
+    .cv-left ul {
+        line-height: 190%;
+        margin-bottom: 10px;
+    }
+
+    .cv-left h2 {
+        margin-top: 15px;
+    }
+
+    .photo-block img {
+        display: block;
+        max-width: 63%;
+        margin: 20px auto;
+    }
+
+    .sp-1 {
+        line-height: 120%;
+        font-size: 14px;
+    }
+    .cv-right {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .cv {
+        margin-top: 0px;
+    }
+    .cv-right {
+        font-size: 16px;
+    }
+
+    .photo-block img {
+        display: block;
+        max-width: 60%;
+        margin: 20px auto;
+    }
+
+    .cv-left ul {
+        line-height: 200%;
+        margin-bottom: 10px;
+    }
+
+    .cv-left h2 {
+        margin-top: 10px;
+    }
+    .dateOfBirth {
+        text-align: center;
+        padding-left: 20px;
+    }
+    .cv-left ul.contacts-block {
+        margin-bottom: 10px;
+    }
+}
